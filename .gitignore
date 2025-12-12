@@ -1,0 +1,49 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+.env.local
+.envrc
+
+# LangGraph / Chroma assets
+data/
+chroma/
+storage/
+checkpoints/
+*.sqlite3
+
+# Logs
+*.log
+backend-uvicorn*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.idea/
+*.swp
+config.bat
